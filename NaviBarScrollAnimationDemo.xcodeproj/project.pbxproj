@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3D232519D5621C00E818F7 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E3D232419D5621C00E818F7 /* bg.png */; };
+		6E53E34B19D3A77E002F480B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E53E34A19D3A77E002F480B /* DetailViewController.m */; };
+		6E60BB0919D2A1AD00616806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60BB0819D2A1AD00616806 /* main.m */; };
+		6E60BB0C19D2A1AD00616806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60BB0B19D2A1AD00616806 /* AppDelegate.m */; };
+		6E60BB0F19D2A1AD00616806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60BB0E19D2A1AD00616806 /* ViewController.m */; };
+		6E60BB1219D2A1AD00616806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E60BB1019D2A1AD00616806 /* Main.storyboard */; };
+		6E60BB1419D2A1AD00616806 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E60BB1319D2A1AD00616806 /* Images.xcassets */; };
+		6E60BB1719D2A1AD00616806 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E60BB1519D2A1AD00616806 /* LaunchScreen.xib */; };
+		6E60BB2319D2A1AE00616806 /* NaviBarScrollAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60BB2219D2A1AD00616806 /* NaviBarScrollAnimationDemoTests.m */; };
+		6E60BB2E19D2A33E00616806 /* ScrollAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60BB2D19D2A33E00616806 /* ScrollAnimationViewController.m */; };
+		6E60BB3019D2AD5300616806 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E60BB2F19D2AD5300616806 /* avatar@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E60BB1D19D2A1AD00616806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E60BAFB19D2A1AD00616806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E60BB0219D2A1AD00616806;
+			remoteInfo = NaviBarScrollAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E3D232419D5621C00E818F7 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		6E53E34919D3A77E002F480B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6E53E34A19D3A77E002F480B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6E60BB0319D2A1AD00616806 /* NaviBarScrollAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviBarScrollAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E60BB0719D2A1AD00616806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E60BB0819D2A1AD00616806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E60BB0A19D2A1AD00616806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E60BB0B19D2A1AD00616806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E60BB0D19D2A1AD00616806 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E60BB0E19D2A1AD00616806 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E60BB1119D2A1AD00616806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E60BB1319D2A1AD00616806 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E60BB1619D2A1AD00616806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6E60BB1C19D2A1AD00616806 /* NaviBarScrollAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviBarScrollAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E60BB2119D2A1AD00616806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E60BB2219D2A1AD00616806 /* NaviBarScrollAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviBarScrollAnimationDemoTests.m; sourceTree = "<group>"; };
+		6E60BB2C19D2A33E00616806 /* ScrollAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollAnimationViewController.h; sourceTree = "<group>"; };
+		6E60BB2D19D2A33E00616806 /* ScrollAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollAnimationViewController.m; sourceTree = "<group>"; };
+		6E60BB2F19D2AD5300616806 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E60BB0019D2A1AD00616806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E60BB1919D2A1AD00616806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E60BAFA19D2A1AD00616806 = {
+			isa = PBXGroup;
+			children = (
+				6E60BB0519D2A1AD00616806 /* NaviBarScrollAnimationDemo */,
+				6E60BB1F19D2A1AD00616806 /* NaviBarScrollAnimationDemoTests */,
+				6E60BB0419D2A1AD00616806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E60BB0419D2A1AD00616806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E60BB0319D2A1AD00616806 /* NaviBarScrollAnimationDemo.app */,
+				6E60BB1C19D2A1AD00616806 /* NaviBarScrollAnimationDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E60BB0519D2A1AD00616806 /* NaviBarScrollAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6E60BB0A19D2A1AD00616806 /* AppDelegate.h */,
+				6E60BB0B19D2A1AD00616806 /* AppDelegate.m */,
+				6E60BB0D19D2A1AD00616806 /* ViewController.h */,
+				6E60BB0E19D2A1AD00616806 /* ViewController.m */,
+				6E60BB2C19D2A33E00616806 /* ScrollAnimationViewController.h */,
+				6E60BB2D19D2A33E00616806 /* ScrollAnimationViewController.m */,
+				6E53E34919D3A77E002F480B /* DetailViewController.h */,
+				6E53E34A19D3A77E002F480B /* DetailViewController.m */,
+				6E60BB1019D2A1AD00616806 /* Main.storyboard */,
+				6E60BB1319D2A1AD00616806 /* Images.xcassets */,
+				6E60BB1519D2A1AD00616806 /* LaunchScreen.xib */,
+				6E60BB2F19D2AD5300616806 /* avatar@2x.png */,
+				6E3D232419D5621C00E818F7 /* bg.png */,
+				6E60BB0619D2A1AD00616806 /* Supporting Files */,
+			);
+			path = NaviBarScrollAnimationDemo;
+			sourceTree = "<group>";
+		};
+		6E60BB0619D2A1AD00616806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E60BB0719D2A1AD00616806 /* Info.plist */,
+				6E60BB0819D2A1AD00616806 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E60BB1F19D2A1AD00616806 /* NaviBarScrollAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E60BB2219D2A1AD00616806 /* NaviBarScrollAnimationDemoTests.m */,
+				6E60BB2019D2A1AD00616806 /* Supporting Files */,
+			);
+			path = NaviBarScrollAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		6E60BB2019D2A1AD00616806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E60BB2119D2A1AD00616806 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E60BB0219D2A1AD00616806 /* NaviBarScrollAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E60BB2619D2A1AE00616806 /* Build configuration list for PBXNativeTarget "NaviBarScrollAnimationDemo" */;
+			buildPhases = (
+				6E60BAFF19D2A1AD00616806 /* Sources */,
+				6E60BB0019D2A1AD00616806 /* Frameworks */,
+				6E60BB0119D2A1AD00616806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviBarScrollAnimationDemo;
+			productName = NaviBarScrollAnimationDemo;
+			productReference = 6E60BB0319D2A1AD00616806 /* NaviBarScrollAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E60BB1B19D2A1AD00616806 /* NaviBarScrollAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E60BB2919D2A1AE00616806 /* Build configuration list for PBXNativeTarget "NaviBarScrollAnimationDemoTests" */;
+			buildPhases = (
+				6E60BB1819D2A1AD00616806 /* Sources */,
+				6E60BB1919D2A1AD00616806 /* Frameworks */,
+				6E60BB1A19D2A1AD00616806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E60BB1E19D2A1AD00616806 /* PBXTargetDependency */,
+			);
+			name = NaviBarScrollAnimationDemoTests;
+			productName = NaviBarScrollAnimationDemoTests;
+			productReference = 6E60BB1C19D2A1AD00616806 /* NaviBarScrollAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E60BAFB19D2A1AD00616806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RidgeCorn;
+				TargetAttributes = {
+					6E60BB0219D2A1AD00616806 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					6E60BB1B19D2A1AD00616806 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 6E60BB0219D2A1AD00616806;
+					};
+				};
+			};
+			buildConfigurationList = 6E60BAFE19D2A1AD00616806 /* Build configuration list for PBXProject "NaviBarScrollAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E60BAFA19D2A1AD00616806;
+			productRefGroup = 6E60BB0419D2A1AD00616806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E60BB0219D2A1AD00616806 /* NaviBarScrollAnimationDemo */,
+				6E60BB1B19D2A1AD00616806 /* NaviBarScrollAnimationDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E60BB0119D2A1AD00616806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E60BB1219D2A1AD00616806 /* Main.storyboard in Resources */,
+				6E60BB3019D2AD5300616806 /* avatar@2x.png in Resources */,
+				6E60BB1719D2A1AD00616806 /* LaunchScreen.xib in Resources */,
+				6E3D232519D5621C00E818F7 /* bg.png in Resources */,
+				6E60BB1419D2A1AD00616806 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E60BB1A19D2A1AD00616806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E60BAFF19D2A1AD00616806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E53E34B19D3A77E002F480B /* DetailViewController.m in Sources */,
+				6E60BB2E19D2A33E00616806 /* ScrollAnimationViewController.m in Sources */,
+				6E60BB0F19D2A1AD00616806 /* ViewController.m in Sources */,
+				6E60BB0C19D2A1AD00616806 /* AppDelegate.m in Sources */,
+				6E60BB0919D2A1AD00616806 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E60BB1819D2A1AD00616806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E60BB2319D2A1AE00616806 /* NaviBarScrollAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E60BB1E19D2A1AD00616806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E60BB0219D2A1AD00616806 /* NaviBarScrollAnimationDemo */;
+			targetProxy = 6E60BB1D19D2A1AD00616806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E60BB1019D2A1AD00616806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E60BB1119D2A1AD00616806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E60BB1519D2A1AD00616806 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E60BB1619D2A1AD00616806 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E60BB2419D2A1AE00616806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E60BB2519D2A1AE00616806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E60BB2719D2A1AE00616806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaviBarScrollAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E60BB2819D2A1AE00616806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaviBarScrollAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E60BB2A19D2A1AE00616806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaviBarScrollAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaviBarScrollAnimationDemo.app/NaviBarScrollAnimationDemo";
+			};
+			name = Debug;
+		};
+		6E60BB2B19D2A1AE00616806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaviBarScrollAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaviBarScrollAnimationDemo.app/NaviBarScrollAnimationDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E60BAFE19D2A1AD00616806 /* Build configuration list for PBXProject "NaviBarScrollAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E60BB2419D2A1AE00616806 /* Debug */,
+				6E60BB2519D2A1AE00616806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E60BB2619D2A1AE00616806 /* Build configuration list for PBXNativeTarget "NaviBarScrollAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E60BB2719D2A1AE00616806 /* Debug */,
+				6E60BB2819D2A1AE00616806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E60BB2919D2A1AE00616806 /* Build configuration list for PBXNativeTarget "NaviBarScrollAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E60BB2A19D2A1AE00616806 /* Debug */,
+				6E60BB2B19D2A1AE00616806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E60BAFB19D2A1AD00616806 /* Project object */;
+}
