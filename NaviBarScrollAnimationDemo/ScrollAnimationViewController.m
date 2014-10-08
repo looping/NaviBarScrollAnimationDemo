@@ -268,4 +268,9 @@
     [self.navigationController pushViewController:[DetailViewController new] animated:YES];
 }
 
+- (void)dealloc {
+    [_tableView setDataSource:nil];
+    [_tableView setDelegate:nil];
+}
+
 @end
